@@ -1,0 +1,53 @@
+/**
+ * Page Template Styles
+ *
+ * @package Postali Child
+ * @author Postali LLC
+*/
+
+/* Practice Area Button */
+
+.learn-firm-more {
+    display: inline-block;
+    color: #fff;
+    background: $green;
+    padding: 20px 30px;
+    font-family: "bebas_neueregular";
+    letter-spacing: .08em;
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+    &:hover {
+        color:white;
+    }
+}
+
+/* Single Blog Post */
+
+.sidebar-active {
+    h1 {
+        margin-top: 0;
+        padding-top: 0;
+    }
+}
+
+/* Contact Page Banner Button */
+.btn-contact {
+    display: inline-block;
+    color: #fff;
+    background: $green;
+    padding: 20px 30px;
+    font-family: "bebas_neueregular";
+    letter-spacing: .08em;
+    text-align: center;
+    font-size:18px;
+    &:hover {
+        color:white;
+    }
+}
+
+.contact-flexy.last-one {
+    p {
+        margin: 5px 0 30px;
+    }
+}

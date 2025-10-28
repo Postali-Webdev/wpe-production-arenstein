@@ -1,0 +1,63 @@
+/**
+ * Sidebar styles
+ *
+ * @package Postali Parent
+ * @author Postali LLC
+*/
+
+.main-sidebar {
+    
+    // Generic Widget Styles
+    .sidebar-widget {
+        margin-bottom:50px;
+    }
+
+    //  Title
+    span.widget-title {
+        padding:15px;
+        color:$black;
+        margin-bottom: 10px;
+        margin-top:10px;
+        display: block;
+        font-family: sans-serif;
+        font-size:20px;
+        line-height: 110%;
+        text-transform: uppercase;   
+    }
+    
+    // Menu
+    ul.menu {
+        list-style-type:none;
+        margin:0;
+        padding:0;
+        li {
+            display: block;
+            width:100%;
+            margin-bottom:5px;
+            a {
+                padding:10px 15px;
+                margin-bottom:0;
+                display: block;
+                color:$black;
+                transition:$transition-speed;
+                text-transform: uppercase;
+                text-decoration: none;
+            }
+        }
+    }
+
+    // Awards
+    .sidebar-widget {
+        #awards {
+            margin-top:30px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap: 15px;
+
+            img {
+                justify-self: center;
+                align-self:center;
+            }
+        }
+    }
+}

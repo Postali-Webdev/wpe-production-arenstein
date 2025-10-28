@@ -1,0 +1,93 @@
+/**
+ * Sass variables and functions.
+ *
+ * @package Postali Child
+ * @author Postali LLC
+ */
+
+// Breakpoints
+$screen-xxl: 1660px;
+$screen-xl: 1400px;
+$screen-lg: 1200px;
+$screen-md: 992px;
+$screen-sm: 768px;
+$screen-xs: 667px;
+$screen-xxs: 480px;
+$screen-xxxs: 360px;
+
+// Containers
+$container-max-width: $screen-lg;
+$container-padding:30px;
+
+// Transitions
+$transition-speed:.3s;
+$transition-fast:.3s ease-in-ease-out;
+$transition-slow:.5s ease-in-ease-out;
+
+// Core Colors
+$black: #000000;
+$white: #F7F7F7;
+$grey: #272932;
+
+// Link Attributes
+$link-color: $black;
+$link-hover-color: $grey;
+$link-transition-speed: .15s;
+
+// Typography
+//$FONTFAMILY: 'FONTFAMILY', sans-serif;
+$icomoon: 'Icomoon';
+
+// $body-font-family: $FONTFAMILY;
+$body-text-color: $black;
+$body-line-height: 130%;
+
+// Font Weight
+$normal: 400;
+$semibold: 600;
+$bold: 700; 
+$bolder: 900;
+
+
+
+
+
+
+// Nick's Variables
+
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('../fonts/bebas/bebasneue-webfont.woff2') format('woff2'),
+         url('../fonts/bebas/bebasneue-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+$body-color: #29343C;
+$tan: #E0DFD3;
+$lttan:#EBEBE4;
+$ltlttan: #F0F0EC;
+$dktan: #C6C5B9;
+
+$blue: #152e61;
+$green: #088445;
+$white: #fff;
+$dkblue: #29343C;
+$dkblueflat: #313E48;
+
+$open: 'Open Sans', sans-serif;
+$bebas: 'bebas_neueregular';
+
+$header-height:80px;
+
+$height-icon: 25px;
+$width-line: 40px;
+$height-line: 5px;
+$transition-time: 0.4s;
+$rotation: 45deg;
+$translateY: ($height-icon / 2);
+$translateX: 0;
+
+$lt-grey: #f6f8f8;
+$grey: #E7E7E7;
+$dk-grey: #717c84;

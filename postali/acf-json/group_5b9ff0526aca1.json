@@ -1,0 +1,86 @@
+{
+    "key": "group_5b9ff0526aca1",
+    "title": "Awards - Tab",
+    "fields": [
+        {
+            "key": "field_5b9ff6e4c713c",
+            "label": "",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "Use this options page to set the awards throughout the site. use the custom shortcode of [awards] to display the awards where desired (posts, widgets, pages)",
+            "new_lines": "wpautop",
+            "esc_html": 0
+        },
+        {
+            "key": "field_5b9ff05bd1e9d",
+            "label": "Awards",
+            "name": "awards",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "field_5b9ff065d1e9e",
+            "min": 0,
+            "max": 0,
+            "layout": "block",
+            "button_label": "Add Award",
+            "sub_fields": [
+                {
+                    "key": "field_5b9ff065d1e9e",
+                    "label": "Badge Image",
+                    "name": "badge_image",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "url",
+                    "preview_size": "medium",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "awards"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "seamless",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1546833300
+}
