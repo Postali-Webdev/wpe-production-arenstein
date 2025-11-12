@@ -73,7 +73,7 @@ endif;
 		</div>
 
 		<div id="mobile-nav">
-			
+			<nav>
 			<?php
 				$args = array(
 					'container'      => false,
@@ -81,7 +81,7 @@ endif;
 				);
 				wp_nav_menu( $args );
 			?>
-
+            </nav>
 		</div>
 		
 	</header>
