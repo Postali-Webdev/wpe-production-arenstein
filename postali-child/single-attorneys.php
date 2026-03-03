@@ -14,6 +14,8 @@ $education = get_field('education');
 $bar_memberships = get_field('bar_memberships');
 $memberships = get_field('memberships');
 $licenses = get_field('licenses');
+$professional_societies = get_field('professional_societies');
+$other_licenses = get_field('other_licenses');
 $past_affiliations = get_field('past_affiliations');
 $areas_of_practice = get_field('areas_of_practice'); 
 $joe_awards = get_field('joe_awards'); 
@@ -102,6 +104,18 @@ get_header();?>
 				<div class="sub-attorney">
 					<h3><span>Licenses</span></h3>
 					<?php echo $licenses; ?></div>
+				<?php endif; ?>
+
+                <?php if ( $professional_societies ): ?>
+				<div class="sub-attorney">
+					<h3><span>Professional Societies</span></h3>
+					<?php echo $professional_societies; ?></div>
+				<?php endif; ?>
+
+                <?php if ( $other_licenses ): ?>
+				<div class="sub-attorney">
+					<h3><span>Other Licenses</span></h3>
+					<?php echo $other_licenses; ?></div>
 				<?php endif; ?>
 
 				<?php if ( $training_certifications ): ?>
